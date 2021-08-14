@@ -1,0 +1,4 @@
+ini
+{'version': 'v2', 'v': 'cnn', 'avg_initial_training_time': 5.952, 'avg_training_time': 3.810337792642141, 'avg_prediction_time': 3.4343311036789297}
+ini
+{'version': 'v2', 'v': 'mlp', 'avg_initial_training_time': 0.581, 'avg_training_time': 0.11366889632107022, 'avg_prediction_time': 0.29718060200668894}

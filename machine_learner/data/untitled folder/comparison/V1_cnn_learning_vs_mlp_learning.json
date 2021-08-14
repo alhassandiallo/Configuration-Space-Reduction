@@ -1,0 +1,37 @@
+[
+  {
+  	"title": "Packet Loss (%)", 
+  	"cnn_learning_avg": 8.098821923076923, 
+  	"mlp_learning_avg": 7.770027859531773
+  }
+  {
+    "title": "Latency (%)", 
+  	"cnn_learning_avg": 0.6668184983277593, 
+  	"mlp_learning_avg": 0.5652926622073579
+  }
+  {
+    "title": "Energy Consumption (coulomb)", 
+  	"cnn_learning_avg": 12.720310702341138, 
+  	"mlp_learning_avg": 12.782632775919733
+  }
+  {
+    "title": "Adaptation Space", 
+  	"cnn_learning_avg": 81.31103678929766, 
+  	"mlp_learning_avg": 49.57190635451505
+  }
+  {
+    "title": "Analysis Time (sec)", 
+  	"cnn_learning_avg": 20.22000668896321, 
+  	"mlp_learning_avg": 4.771013377926421
+  }
+  {
+    "title": "Adaptation Time (sec)", 
+  	"cnn_learning_avg": 27.12177591973244, 
+  	"mlp_learning_avg": 4.893658862876253
+  }
+]
+
+
+
+
+

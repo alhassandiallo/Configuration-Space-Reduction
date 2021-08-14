@@ -1,0 +1,36 @@
+[
+  {
+    "target": "packet_loss",
+    "accuracy": [
+      0.928125,
+      0.9408928571428572,
+      0.941,
+      0.941875
+    ],
+    "training_samples": [
+      1600,
+      4800,
+      8000,
+      11200
+    ],
+    "total_samples": 16000,
+    "execution_time_in_sec": 350.9684841632843
+  },
+  {
+    "target": "latency",
+    "accuracy": [
+      0.9518055555555556,
+      0.949375,
+      0.95275,
+      0.9527083333333334
+    ],
+    "training_samples": [
+      1600,
+      4800,
+      8000,
+      11200
+    ],
+    "total_samples": 16000,
+    "execution_time_in_sec": 360.9920310974121
+  }
+]
