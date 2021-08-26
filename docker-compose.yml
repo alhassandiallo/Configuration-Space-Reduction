@@ -1,0 +1,17 @@
+version: '3.3'
+
+services:
+  explainable_ai:
+    build: ./explainable_ai
+    ports:
+      - "5000:5000"
+    volumes:
+      - "./explainable_ai:/opt/explainable_ai"
+
+  simulation:
+    build: ./simulation
+    depends_on:
+      - "explainable_ai"
+    network_mode: host
+    volumes:
+      - "./simulation:/opt/simulation"
