@@ -59,7 +59,9 @@ file
 helps to create a container image for the final simulation of the
 interaction between the XAI framework and the self-adaptive IoT system.
 
+
 ![image](https://user-images.githubusercontent.com/57788241/131268319-b70e9811-ed16-4ad9-be3c-3f54a12fc97e.png)
+
 
 Finding the best hyperparameters for the learning model
 
@@ -70,7 +72,9 @@ python LearningModule/ HyperparameterTuning.py
 
 Please choose the version of the system in the file as showed below
 
+
 ![image](https://user-images.githubusercontent.com/57788241/131268398-e6190aff-c1eb-434d-85f3-4cd1f0b84e55.png)
+
 
 Building and training the learning models
 
@@ -81,29 +85,51 @@ python LearningModule/ ModelTraining.py
 Please configure the version of the system and the sample of the dataset
 as well as the test size
 
+
 ![image](https://user-images.githubusercontent.com/57788241/131268457-26660044-24ac-4836-a64e-0e9f35b79ea8.png)
+
+
 
 classification mechanism for the adaptation options: classification.py
 
+
+
 ![image](https://user-images.githubusercontent.com/57788241/131268466-ea308c75-e3f1-4317-af88-3adc4e914e74.png)
+
+
 
 Create a gradient calculator for the input features:
 calculate_outputs_and gradients.py
 
+
 ![image](https://user-images.githubusercontent.com/57788241/131268475-2e298b30-18c8-40fb-b519-d1f57d3fbf08.png)
+
+
 
 Create an integrated gradients calculator: integrated_gradients.py
 
+
+
 ![image](https://user-images.githubusercontent.com/57788241/131268482-cd69273e-cdd2-47c5-9759-699d86432297.png)
+
+
 
 Build the feature attribution selection mechanism: attributions.py
 
+
+
 ![image](https://user-images.githubusercontent.com/57788241/131268485-db7cde1a-7475-423e-b77d-be94d45f6005.png)
+
+
 
 client that sends and receives messages from the simulation service:
 app.py
 
+
+
 ![image](https://user-images.githubusercontent.com/57788241/131268498-609bcf5f-ae83-4a18-b41c-b30229e55de9.png)
+
+
 
 Simulation of self-adaptive IoT system
 
@@ -156,7 +182,11 @@ file
 helps to create a container image for the final simulation of the
 interaction between the XAI framework and the self-adaptive IoT system.
 
+
+
 ![image](https://user-images.githubusercontent.com/57788241/131268511-f377d690-1a3a-4a63-a16f-3474fb10daf6.png)
+
+
 
 ## The Config file:
 
@@ -167,19 +197,31 @@ The Simulation project contains a configuration file named
 Basically, the file is used by the Activforms module in order to get the
 information about which version of system's simulation to run.
 
+
+
 ![image](https://user-images.githubusercontent.com/57788241/131268523-9f5ee825-59e3-4217-8a4e-0e4ec9f5b035.png)
+
+
 
 To change the quality models depending on
 the version of the system, just add or remove the '\#' before the
 property name
 
+
+
 ![image](https://user-images.githubusercontent.com/57788241/131268536-585781c2-1c9d-4b64-adb4-85c5df6e2fdb.png)
+
+
 
 
 Below are the general settings that are common for all the versions of
 the DeltaIoT system
 
+
+
 ![image](https://user-images.githubusercontent.com/57788241/131268545-b9fc662c-aa20-41d8-b67a-4a47c69a7a7d.png)
+
+
 
 
 Below are the descriptions of the two child modules of the Simulation
@@ -196,19 +238,31 @@ is launched, it loads the version of the DeltaIoT to simulate from the
 configuration file and initializes the monitored system which is
 'Simulator' as shown below: Main.java
 
+
+
 ![image](https://user-images.githubusercontent.com/57788241/131268554-aea58c85-7749-4f50-baba-007183696c9b.png)
+
+
 
 Then the feedback loop starts based on the initialized monitoring
 values. The feedback loop checks whether adaptation is required:
 FeedbackLoop.java
 
+
+
 ![image](https://user-images.githubusercontent.com/57788241/131268558-4900d1f3-61e2-4996-a21b-ff5bf94ece1f.png)
+
+
 
 Below is the code that makes the simulation receive the selected options
 from the XAI program, and sends the verified options for training:
 SMCConnector.java
 
+
+
 ![image](https://user-images.githubusercontent.com/57788241/131268563-9e9faddc-8431-4aad-a7a6-5df9e3751c83.png)
+
+
 
 ## Module name:
 
@@ -220,13 +274,21 @@ This is a simulation of the DeltaIoT platform. It has the code to create
 DeltaIoTv1 and DeltaIoTv2 as shown below:
 deltaiot/client/SimulationClient.java
 
+
+
 ![image](https://user-images.githubusercontent.com/57788241/131268578-41c94f5d-4a8a-4410-9e0a-a21c738bda4f.png)
+
+
 
 The main method of the 'simulator'
 package, simulates a continual operation of the system by applying
 adaptation based on the network QoS: simulator/Main.java
 
+
+
 ![image](https://user-images.githubusercontent.com/57788241/131268586-04c86d10-cd84-4f80-98a5-20f40d598766.png)
+
+
 
 
 # Overview of Configuration Space Reduction project
@@ -276,19 +338,35 @@ docker compose up
 
 Building the containers
 
+
+
 ![image](https://user-images.githubusercontent.com/57788241/131268609-7907adf0-0db0-4992-9f16-cde0428787e3.png)
+
+
 
 launching the simulation
 
+
+
 ![image](https://user-images.githubusercontent.com/57788241/131268613-85de3720-3033-4826-8a85-8bce29c842e2.png)
+
+
 
 Feedback loop starting
 
+
+
 ![image](https://user-images.githubusercontent.com/57788241/131268617-e74603da-fc3d-4b7c-8ba2-873a507279d4.png)
+
+
 
 System running
 
+
+
 ![image](https://user-images.githubusercontent.com/57788241/131268621-ae0a2ee4-7f5a-495c-b979-68972ff4a989.png)
+
+
 
 
 The first value '1' is the cycle counter meaning this is cycle 1
