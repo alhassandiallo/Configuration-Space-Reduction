@@ -1,3 +1,4 @@
+<img width="343" alt="xai-docker" src="https://user-images.githubusercontent.com/57788241/131268296-29a67882-fd0a-4569-8eab-c0d047d7bfe1.png">
 # Configuration-Space-Reduction
 An explainable framework using deep learning and XAI for configuration space reduction and human-in-the-loop interaction
 
@@ -54,12 +55,12 @@ contains a learning module and an explainable module.
 
 ## The Docker file:
 
-It is created on the root folder of the project. The [docker
-file](/Users/boner/Desktop/xai-docker.png)
+It is created on the root folder of the project. The docker
+file
 helps to create a container image for the final simulation of the
 interaction between the XAI framework and the self-adaptive IoT system.
 
-![image](/Users/boner/Desktop/xai-docker.png){width="4.763888888888889in"
+![image](<img width="343" alt="xai-docker" src="https://user-images.githubusercontent.com/57788241/131268319-b70e9811-ed16-4ad9-be3c-3f54a12fc97e.png">){width="4.763888888888889in"
 height="1.9861111111111112in"}
 
 Finding the best hyperparameters for the learning model
