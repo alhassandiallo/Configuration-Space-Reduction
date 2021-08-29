@@ -1,4 +1,3 @@
-<img width="343" alt="xai-docker" src="https://user-images.githubusercontent.com/57788241/131268296-29a67882-fd0a-4569-8eab-c0d047d7bfe1.png">
 # Configuration-Space-Reduction
 An explainable framework using deep learning and XAI for configuration space reduction and human-in-the-loop interaction
 
