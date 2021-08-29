@@ -55,7 +55,7 @@ contains a learning module and an explainable module.
 ## The Docker file:
 
 It is created on the root folder of the project. The [docker
-file](file:///Users/boner/Desktop/untitled%20folder/temp/temp2/Adaptation%20Space%20Reduction/explainable_ai/Dockerfile)
+file](/Users/boner/Desktop/xai-docker.png)
 helps to create a container image for the final simulation of the
 interaction between the XAI framework and the self-adaptive IoT system.
 
