@@ -59,7 +59,7 @@ file](/Users/boner/Desktop/xai-docker.png)
 helps to create a container image for the final simulation of the
 interaction between the XAI framework and the self-adaptive IoT system.
 
-![plot](/Users/boner/Desktop/xai-docker.png){width="4.763888888888889in"
+![image](/Users/boner/Desktop/xai-docker.png){width="4.763888888888889in"
 height="1.9861111111111112in"}
 
 Finding the best hyperparameters for the learning model
