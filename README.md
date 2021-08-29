@@ -59,8 +59,7 @@ file
 helps to create a container image for the final simulation of the
 interaction between the XAI framework and the self-adaptive IoT system.
 
-![image](<img width="343" alt="xai-docker" src="https://user-images.githubusercontent.com/57788241/131268319-b70e9811-ed16-4ad9-be3c-3f54a12fc97e.png">){width="4.763888888888889in"
-height="1.9861111111111112in"}
+![image](https://user-images.githubusercontent.com/57788241/131268319-b70e9811-ed16-4ad9-be3c-3f54a12fc97e.png)
 
 Finding the best hyperparameters for the learning model
 
