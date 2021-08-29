@@ -95,7 +95,7 @@ classification mechanism for the adaptation options: classification.py
 
 
 
-<img src="https://user-images.githubusercontent.com/57788241/131268466-ea308c75-e3f1-4317-af88-3adc4e914e74.png" width="200">
+<img src="https://user-images.githubusercontent.com/57788241/131268466-ea308c75-e3f1-4317-af88-3adc4e914e74.png" width="600">
 
 Create a gradient calculator for the input features:
 calculate_outputs_and gradients.py
