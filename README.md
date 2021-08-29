@@ -3,16 +3,16 @@ An explainable framework using deep learning and XAI for configuration space red
 
 Simulation of the Explainable framework
 
-**Project name**:
+##Project name:
 
 explainable_ai
 
-**Project description**:
+##Project description:
 
 The implementation of adaptation option double selection process. It
 contains a learning module and an explainable module.
 
-**Project environment**:
+##Project environment:
 
 -   Python 3
 
@@ -34,7 +34,7 @@ contains a learning module and an explainable module.
 
 -   Sublime text and Terminal
 
-**Instructions on how to build the Explainable framework**
+##Instructions on how to build the Explainable framework
 
 -   Build the learning module
 
@@ -52,7 +52,7 @@ contains a learning module and an explainable module.
 
     -   Build the feature attribution mechanism
 
-**The Docker file:**
+##The Docker file:
 
 It is created on the root folder of the project. The [docker
 file](file:///Users/boner/Desktop/untitled%20folder/temp/temp2/Adaptation%20Space%20Reduction/explainable_ai/Dockerfile)
@@ -108,11 +108,11 @@ app.py
 
 Simulation of self-adaptive IoT system
 
-**Project name**:
+##Project name:
 
 Simulation
 
-**Project description**:
+##Project description:
 
 This program simulates the self-adaptive IoT system. It contains two
 modules: Activforms module and Simulator module.
@@ -128,7 +128,7 @@ Related research paper: [Applying Machine Learning to Reduce the
 Adaptation Space in Self-Adaptive Systems: an exploratory
 work](http://lnu.diva-portal.org/smash/record.jsf?pid=diva2%3A1240014&dswid=-7780)
 
-**Project environment**:
+##Project environment:
 
 -   Java
 
@@ -136,7 +136,7 @@ work](http://lnu.diva-portal.org/smash/record.jsf?pid=diva2%3A1240014&dswid=-778
 
 -   Eclipse IDE
 
-**Instructions on how to edit and use the Simulation code**
+##Instructions on how to edit and use the Simulation code
 
 The Simulation package is a multi-module maven project with a packaging
 of type pom. The Activforms and Simulator modules of packaging type jar,
@@ -150,7 +150,7 @@ is a child of Simulation.
 -   Navigate to the directory where the folder or compressed file of the
     Simulation code is and click 'Next' and 'Finish'
 
-**The Docker file:**
+##The Docker file:
 
 It is created on the root folder of the project. The [docker
 file](file:///Users/boner/Desktop/untitled%20folder/temp/temp2/Adaptation%20Space%20Reduction/simulation/Dockerfile)
@@ -159,7 +159,7 @@ interaction between the XAI framework and the self-adaptive IoT system.
 
 ![](media/image9.png){width="6.5in" height="1.6965277777777779in"}
 
-**The Config file**:
+##The Config file:
 
 The Simulation project contains a configuration file named
 ***[SMCConfig.properties](file:///Users/boner/Desktop/untitled%20folder/temp/temp2/Adaptation%20Space%20Reduction/simulation/SMCConfig.properties)***
@@ -182,11 +182,11 @@ the DeltaIoT system
 
 Below are the descriptions of the two child modules of the Simulation
 
-**Module name**:
+##Module name:
 
 Activforms
 
-**Module description**:
+##Module description:
 
 This module is a simulation of the MAPE-K feedback loop. It contains all
 the code of the different components of the MAPE-K loop. When the 'Main'
@@ -209,11 +209,11 @@ SMCConnector.java
 
 ![](media/image15.png){width="6.5in" height="2.1083333333333334in"}
 
-**Module name**:
+##Module name:
 
 Simulator
 
-**Module description**:
+##Module description:
 
 This is a simulation of the DeltaIoT platform. It has the code to create
 DeltaIoTv1 and DeltaIoTv2 as shown below:
@@ -228,17 +228,17 @@ adaptation based on the network QoS: simulator/Main.java
 
 Overview of Configuration Space Reduction project
 
-**Project name**:
+##Project name:
 
 Adaptation Space Reduction
 
-**Content**:
+##Content:
 
 Simulation
 
 Explainable AI (XAI)
 
-**Project description**:
+##Project description:
 
 This project simulates the overall operations of the self-adaptive IoT
 system with the explainable framework. The project uses docker to
@@ -252,11 +252,11 @@ services. The Simulation container image behaves like a web server. It
 requests or sends messages in json format to the XAI container image
 which behaves like a client of a web server.
 
-**Project environment**:
+##Project environment:
 
 Docker 3.3
 
-**How to run the project**
+##How to run the project
 
 -   Download and install docker
 
@@ -271,7 +271,7 @@ docker compose build
 
 docker compose up
 
-**Example**:
+##Example:
 
 Building the containers
 
