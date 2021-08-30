@@ -142,12 +142,6 @@ The Activforms module contains the code that simulates the MAPE-K
 feedback loop, while the Simulator module contains the code that
 simulates the DeltaIoT system.
 
-The simulation code can be downloaded from
-[here](https://drops.dagstuhl.de/opus/volltexte/2017/7142/artifact/DARTS-3-1-4-artifact-6798858c9a89c871093d9a095a029b64.tgz)
-
-Related research paper: [Applying Machine Learning to Reduce the
-Adaptation Space in Self-Adaptive Systems: an exploratory
-work](http://lnu.diva-portal.org/smash/record.jsf?pid=diva2%3A1240014&dswid=-7780)
 
 ## Project environment:
 
